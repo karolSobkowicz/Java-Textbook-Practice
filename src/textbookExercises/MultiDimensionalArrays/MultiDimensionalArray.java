@@ -1,7 +1,6 @@
 package textbookExercises.MultiDimensionalArrays;
 
 // Imports
-import org.jetbrains.annotations.NotNull;
 import java.util.Scanner;
 
 
@@ -20,7 +19,7 @@ public class MultiDimensionalArray {
         printSummary(matrix);
     }
 
-   public static void print(@NotNull int[][] array){
+   public static void print(int[][] array){
        for (int row = 0; row < array.length; row++) {
            for (int column = 0; column < array[row].length; column++) {
                System.out.print(array[row][column] + " ");
@@ -29,7 +28,7 @@ public class MultiDimensionalArray {
    }
 
 
-   public static void add(@NotNull int[][] array){
+   public static void add(int[][] array){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter " + array.length + " rows and " + array[0].length + " columns: ");
 
@@ -40,7 +39,7 @@ public class MultiDimensionalArray {
         }
    }
 
-   public static void randomValues(@NotNull int[][] array){
+   public static void randomValues(int[][] array){
         for(int row = 0; row < array.length; row++){
             for(int column = 0; column < array[0].length; column++){
                 array[row][column] = (int)(Math.random() * 100);
@@ -49,7 +48,7 @@ public class MultiDimensionalArray {
    }
 
 
-   public static int sumAll(@NotNull int[][] array) {
+   public static int sumAll(int[][] array) {
         int sum = 0;
        for(int row = 0; row < array.length; row++) {
            for (int column = 0; column < array[0].length; column++) {
@@ -58,7 +57,7 @@ public class MultiDimensionalArray {
        } return sum;
    }
 
-   public static void sumRow(@NotNull int[][] array){
+   public static void sumRow(int[][] array){
         for (int row = 0; row < array.length; row++) {
             int total = 0;
             for (int column = 0; column < array[row].length; column++){
@@ -67,7 +66,7 @@ public class MultiDimensionalArray {
         }
    }
 
-    public static void sumColumn(@NotNull int[][] array){
+    public static void sumColumn(int[][] array){
         for (int column = 0; column < array[0].length; column++){
             int total = 0;
             for (int row = 0; row < array.length; row++) {
