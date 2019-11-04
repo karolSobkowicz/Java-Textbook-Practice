@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd716909-8e28-4be8-b5ba-f6a1421e1ca4" name="Default Changelist" comment="" />
+    <list default="true" id="bd716909-8e28-4be8-b5ba-f6a1421e1ca4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbookExercises/InheritanceAndPolymorphism/CircleFromSimpleGeometricObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbookExercises/InheritanceAndPolymorphism/RectangleFromSimpleGeometricObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbookExercises/InheritanceAndPolymorphism/SimpleGeometricObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbookExercises/InheritanceAndPolymorphism/TestCircleRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbookExercises/ObjectOrientedThinking/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbookExercises/ObjectOrientedThinking/StackOfIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbookExercises/ObjectOrientedThinking/TestCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbookExercises/ObjectOrientedThinking/TestStackOfIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -27,8 +41,10 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HowAnArrayWorks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseBMIClass">
+  <component name="RunManager" selected="Application.TestCircleRectangle">
     <configuration name="Formats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="textbookExercises.PrintfFormatting.Formats" />
       <module name="Java Textbook Practice" />
@@ -62,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="textbookExercises.ObjectsAndClasses.Test" />
+    <configuration name="TestCircleRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="textbookExercises.InheritanceAndPolymorphism.TestCircleRectangle" />
       <module name="Java Textbook Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="textbookExercises.ObjectsAndClasses.*" />
+          <option name="PATTERN" value="textbookExercises.InheritanceAndPolymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLoanClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="textbookExercises.ObjectOrientedThinking.TestLoanClass" />
+    <configuration name="TestCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="textbookExercises.ObjectOrientedThinking.TestCourse" />
       <module name="Java Textbook Practice" />
       <extension name="coverage">
         <pattern>
@@ -88,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="textbookExercises.ObjectsAndClasses.TotalArea" />
+    <configuration name="TestStackOfIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="textbookExercises.ObjectOrientedThinking.TestStackOfIntegers" />
       <module name="Java Textbook Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="textbookExercises.ObjectsAndClasses.*" />
+          <option name="PATTERN" value="textbookExercises.ObjectOrientedThinking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.TotalArea" />
-      <item itemvalue="Application.TestLoanClass" />
       <item itemvalue="Application.Formats" />
       <item itemvalue="Application.UseBMIClass" />
+      <item itemvalue="Application.TestCourse" />
+      <item itemvalue="Application.TestStackOfIntegers" />
+      <item itemvalue="Application.TestCircleRectangle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCircleRectangle" />
+        <item itemvalue="Application.TestStackOfIntegers" />
+        <item itemvalue="Application.TestCourse" />
         <item itemvalue="Application.UseBMIClass" />
         <item itemvalue="Application.Formats" />
-        <item itemvalue="Application.TestLoanClass" />
-        <item itemvalue="Application.TotalArea" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -144,10 +160,22 @@
       <workItem from="1572342712564" duration="8144000" />
       <workItem from="1572355742422" duration="3566000" />
       <workItem from="1572430140527" duration="23428000" />
+      <workItem from="1572859591580" duration="9834000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
