@@ -1,4 +1,6 @@
-package textbookExercises.ObjectOrientedThinking;
+package textbookExcercises.ObjectOrientedThinking;
+
+import textbookExercises.ObjectOrientedThinking.BMI;
 
 import static org.junit.jupiter.api.Assertions.*;
 
