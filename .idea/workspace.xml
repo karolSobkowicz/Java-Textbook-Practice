@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd716909-8e28-4be8-b5ba-f6a1421e1ca4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/textbookExercises/InheritanceAndPolymorphism/CircleFromSimpleGeometricObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/textbookExercises/InheritanceAndPolymorphism/RectangleFromSimpleGeometricObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/textbookExercises/InheritanceAndPolymorphism/SimpleGeometricObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/textbookExercises/InheritanceAndPolymorphism/TestCircleRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/textbookExercises/ObjectOrientedThinking/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/textbookExercises/ObjectOrientedThinking/StackOfIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/textbookExercises/ObjectOrientedThinking/TestCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/textbookExercises/ObjectOrientedThinking/TestStackOfIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbookExercises/InheritanceAndPolymorphism/Faculty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,13 +56,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCircleRectangle">
-    <configuration name="Formats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="textbookExercises.PrintfFormatting.Formats" />
+  <component name="RunManager" selected="Application.Faculty">
+    <configuration name="Faculty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="textbookExercises.InheritanceAndPolymorphism.Faculty" />
       <module name="Java Textbook Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="textbookExercises.PrintfFormatting.*" />
+          <option name="PATTERN" value="textbookExercises.InheritanceAndPolymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +123,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Formats" />
       <item itemvalue="Application.UseBMIClass" />
       <item itemvalue="Application.TestCourse" />
       <item itemvalue="Application.TestStackOfIntegers" />
       <item itemvalue="Application.TestCircleRectangle" />
+      <item itemvalue="Application.Faculty" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Faculty" />
         <item itemvalue="Application.TestCircleRectangle" />
         <item itemvalue="Application.TestStackOfIntegers" />
         <item itemvalue="Application.TestCourse" />
         <item itemvalue="Application.UseBMIClass" />
-        <item itemvalue="Application.Formats" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +152,7 @@
       <workItem from="1572342712564" duration="8144000" />
       <workItem from="1572355742422" duration="3566000" />
       <workItem from="1572430140527" duration="23428000" />
-      <workItem from="1572859591580" duration="9834000" />
+      <workItem from="1572859591580" duration="12365000" />
     </task>
     <servers />
   </component>
