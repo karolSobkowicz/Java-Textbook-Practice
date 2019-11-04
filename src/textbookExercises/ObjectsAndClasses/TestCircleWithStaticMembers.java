@@ -1,7 +1,5 @@
 package textbookExercises.ObjectsAndClasses;
 
-import javafx.scene.shape.Circle;
-
 /**
  * Created by Karol Sobkowicz on 30.10.2019
  */

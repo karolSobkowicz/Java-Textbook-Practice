@@ -1,7 +1,5 @@
 package textbookExercises.ObjectOrientedThinking;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 public class Course {
     // Data fields
     private String courseName;
