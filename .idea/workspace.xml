@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd716909-8e28-4be8-b5ba-f6a1421e1ca4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/textbookExercises/InheritanceAndPolymorphism/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textbookExercises/ObjectOrientedThinking/BMITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Textbook Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Textbook Practice.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -36,6 +39,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HowAnArrayWorks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -43,6 +49,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="textbookExercises.ObjectOrientedThinking" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Faculty">
+  <component name="RunManager" selected="JUnit.BMITest.getBMI">
     <configuration name="Faculty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="textbookExercises.InheritanceAndPolymorphism.Faculty" />
       <module name="Java Textbook Practice" />
@@ -76,19 +90,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="textbookExercises.InheritanceAndPolymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="textbookExercises.ObjectOrientedThinking.TestCourse" />
-      <module name="Java Textbook Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="textbookExercises.ObjectOrientedThinking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,20 +123,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BMITest.getBMI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java Textbook Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="textbookExercises.ObjectOrientedThinking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="textbookExercises.ObjectOrientedThinking" />
+      <option name="MAIN_CLASS_NAME" value="textbookExercises.ObjectOrientedThinking.BMITest" />
+      <option name="METHOD_NAME" value="getBMI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.UseBMIClass" />
-      <item itemvalue="Application.TestCourse" />
       <item itemvalue="Application.TestStackOfIntegers" />
       <item itemvalue="Application.TestCircleRectangle" />
       <item itemvalue="Application.Faculty" />
+      <item itemvalue="JUnit.BMITest.getBMI" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BMITest.getBMI" />
+        <item itemvalue="Application.UseBMIClass" />
         <item itemvalue="Application.Faculty" />
         <item itemvalue="Application.TestCircleRectangle" />
         <item itemvalue="Application.TestStackOfIntegers" />
-        <item itemvalue="Application.TestCourse" />
-        <item itemvalue="Application.UseBMIClass" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +169,7 @@
       <workItem from="1572342712564" duration="8144000" />
       <workItem from="1572355742422" duration="3566000" />
       <workItem from="1572430140527" duration="23428000" />
-      <workItem from="1572859591580" duration="12365000" />
+      <workItem from="1572859591580" duration="13697000" />
     </task>
     <servers />
   </component>
